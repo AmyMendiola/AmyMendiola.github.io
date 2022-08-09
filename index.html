@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Amy Mendiola</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <script src="https://kit.fontawesome.com/8aa13cbc38.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo"><i class="fa-solid fa-code"></i>&nbsp<b>Home</b></a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <button class="navbar__links" onClick="document.getElementById('about').scrollIntoView();"> About Me </button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__links" onClick="document.getElementById('resume').scrollIntoView();"> Resume </button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__links" onClick="document.getElementById('projects').scrollIntoView();"> Projects </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Hero-->
+        <div class="main">
+            <div class="main__container">
+                <div class="main__content">
+                <div class="main__img--container">
+                    <img class = "img"id="main__img"/>
+                    <h1 class="name">Amy Mendiola</h1>
+                </div>
+                <div class="main__about">
+                    <h2 class="title" id="about">About  Me</h2>
+                    <h1 class="main__about--text">I am currently a junior at the University of Texas at Dallas, studying computer science. I am from Sugar Land, Texas and I have always been fascinated by computers from a young age and motivated to solve problems efficiently. I am currently looking for a summer(2023) internship to strengthen my skills and give me experience in the computer science feild.</h1>
+                </div>
+                <div class="main__resume" id="resume">
+                    <h2 class = "title">Resume</h2>
+                    <div class="main__resume--container" id="contact">
+                        <div class="left">
+                            <div>
+                                <img class = "img__me" src="images/me.jpg" id="me__img"/>
+                            </div>
+                            <div>
+                                <h1 class="resume__name">Amy Mendiola</h1>
+                                <h2 class="resume__occupation">Student</h2>
+                                <h1><hr></h1>
+                                <h1 class="resume__titles" >Contact Info<br><br></h1>
+                                <h1 class="resume__text"><i class="fa-solid fa-phone">&nbsp&nbsp</i>(832) 490 - 6604</h1>
+                                <h1 class="resume__text"><i class="fa-solid fa-envelope"></i>&nbsp&nbsp</i>amy.mendiola@utdallas.edu</h1>
+                                <h1 class="resume__text"><i class="fa-brands fa-linkedin">&nbsp&nbsp</i>https://www.linkedin.com/in/amy-mendiola-2346b01b8/</h1>
+                                <h1 class="resume__text"><i class="fa-solid fa-location-dot">&nbsp&nbsp</i>Sugar Land, TX 77479</h1>
+                                <h1 class="resume__text"><i class="fa-brands fa-github">&nbsp&nbsp</i>https://github.com/AmyMendiola</h1>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h2 class="resume__minor__titles">Education</h2>
+                            <h3 class="resume__minor__topic">University of Texas at Dallas - B.S. Computer Science</h3>
+                            <h5 class="resume_description">Richardson, TX</h5>
+                            <h4 class="resume__blocktext">August 2020 - current (Class of 2024) | GPA: 3.9</h4>
+                            <h4 class="resume__blocktext">Recieced Academic Excellence Scholarship</h4>
+                            <h4 class="resume__blocktext">Dean's List Recipient (Fall 2021) </h4>
+                            <h3 class="resume__minor__topic">St.Agnes Academy - High School Diploma</h3>
+                            <h5 class="resume_description">Houston, TX | Class of 2020</h5>
+                            <h4 class="resume__blocktext">Awarded Cum Laude</h4>
+                            <h4 class="resume__blocktext">Awarded National Hispanic Scholar</h4>
+                            <h4 class="resume__blocktext">Member of National Honor Society</h4>
+                            <h4 class="resume__blocktext">Member of National Spanish Honor Society<br><br></h4>
+                            <h2 class="resume__minor__titles">Volunteer/Work Experience</h2>
+                            <h3 class="resume__minor__topic">Camp Counselor - Camp Buckaroo</h3>
+                            <h5 class="resume_description">Easterseals, Houtson, TX</h5>
+                            <h4 class="resume__blocktext">Cared for and created strong bonds with choldren with disabilityies aged six to fourteen on a 1-on-1 basis.</h4>
+                            <h4 class="resume__blocktext">Helped campers problem-solve and gain skills to increase self-esteem</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__projects" id="projects">
+                    <h2 class = "title">Projects<br><br></h2>
+                    <li class = "main__projects--btn">
+                        <a class = "btn" href="https://github.com/AmyMendiola?tab=repositories" ><i class="fa-brands fa-github"></i>&nbsp&nbspCheck them out on my Github </a>
+                    </li>
+                    <h1><br><br></h1>
+                </div>
+                <div class="bottom_bar">
+                    <div class="bottom_bar--name">
+                        <h1>Amy Mendiola</h1>
+                    </div>
+                    <div class="bottom_bar--icons">
+                        <a class="icon_link" href="https://github.com/AmyMendiola?tab=repositories"><i class="fa-brands fa-github">&nbsp&nbsp</i></a>
+                        <a class="icon_link" href="https://www.linkedin.com/in/amy-mendiola-2346b01b8/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="bottom_bar--pagejumps">
+                        <button class="pagejump" onClick="document.getElementById('contact').scrollIntoView();">Contact</button>
+                        <button class="pagejump" onClick="document.getElementById('about').scrollIntoView();">About</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
